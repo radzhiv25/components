@@ -2,7 +2,7 @@
 
 export const Footer = () => {
   return (
-    <div className="footer p-5 w-full fixed bottom-0">
+    <div className="footer p-5 w-full md:fixed bottom-0">
         <p className="flex justify-center items-center">
             Created with 
             <span>

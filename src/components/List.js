@@ -1,17 +1,14 @@
 // import { useEffect } from "react"
 
-export const List = () => {;
+export const List = () => {
     return (
-        <div className="list my-1 p-2">
+        <div className="list mx-auto my-10 p-2 flex-1 border">
             <h1 className="text-xl font-bold my-2">Languages</h1>
-            <ul className="grid grid-cols-2 cursor-pointer">
-                <div className="item1 flex items-center">
-                    <li className="eng">English</li>
-                    {/* <input type="checkbox" name="" id="" className=""/> */}
-                </div>
-                <li className="">Chinese</li>
-                <li className="">French</li>
-                <li className="">Japanese</li>
+            <ul className="grid grid-cols-2 gap-x-10 cursor-pointer text-gray-400 font-medium">
+                <li className="hover:text-gray-800">English</li>
+                <li className="hover:text-green-400">Chinese</li>
+                <li className="hover:text-blue-400">French</li>
+                <li className="hover:text-red-400">Japanese</li>
             </ul>
         </div>
     )

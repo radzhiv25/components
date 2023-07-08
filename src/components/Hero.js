@@ -3,6 +3,7 @@ import {Card} from './Card'
 import {Button} from './button'
 import {List} from './List'
 import { TestCard } from './TestCard'
+import { Icons } from './icon'
 
 export const Hero = () => {
   return (
@@ -29,6 +30,14 @@ export const Hero = () => {
           name="View Card"
           bio="Just a View card component for general purpose usage"
           link=""/>
+        </div>
+        <div className="card4 p-2 flex flex-col border shadow-lg rounded-md">
+          <Icons/>
+          <Card 
+          name="icon"
+          bio="Just a normal react component containing icons."
+          link=""
+          />
         </div>
     </div>
   )
